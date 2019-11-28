@@ -1,0 +1,6 @@
+<canvas class="canvas" id="canvas" canvas-id="canvas" disable-scroll="true" onTouchStart="canvasStart" onTouchMove="canvasMove" onTouchEnd="canvasEnd" onTouchCancel="canvasEnd" onLongTap="canvasLongTap"></canvas>
+<view class='buttonBox'>
+  <button onTap='clickMe' class='addbutton' open-type="getuserinfo">点击我生成图片保存相册</button>
+  <button type="default" class='delbutton' onTap="cleardraw">清除</button>
+</view>
+ 
